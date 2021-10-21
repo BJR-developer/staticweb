@@ -1,0 +1,17 @@
+
+.fontlogo{
+    font-size: 45px;
+    padding-bottom: 10px;
+    color: #6366f1;
+}
+.py-24 {
+/* padding-top: 6rem; */
+padding-bottom: 6rem;
+padding-top: 0rem !important;
+}
+.forpad{
+padding-top: 6rem;
+}
+.object-cover:hover{
+    scale: 1.1;
+}
