@@ -33,9 +33,7 @@ app.get("/about" , (req,res)=>{
 app.get("/contact" , (req,res)=>{
   res.render("contact");
 });
-app.get("*" , (req,res)=>{
-  res.send("<h1>404 Page Error. Please check url again!!!!");
-});
+
 app.listen(port , ()=>{
   console.log("Yes YOur Server GOod Very Good its working now");
 });  
